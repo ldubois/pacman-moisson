@@ -56,6 +56,10 @@ npm start
 
 Le jeu est prêt pour **GitHub Pages**. Un workflow GitHub Actions compile et déploie automatiquement le jeu à chaque push sur `main`.
 
+## 📄 Licence
+
+Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+
 ---
 
 *Codé avec passion (et une capuche) en TypeScript.* 🧢
