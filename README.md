@@ -4,7 +4,7 @@
 
 Bienvenue dans **Neon Harvest**, une réinterprétation moderne et survoltée du classique Pac-Man dans un univers agricole cyberpunk. Pilotez votre cyber-tracteur, évitez les esprits nuisibles et récoltez le blé énergétique !
 
-![Neon Harvest Banner](https://via.placeholder.com/800x400/05070a/00ff9d?text=NEON+HARVEST)
+![Neon Harvest Banner](screen.png)
 
 ## 🎮 Fonctionnalités "Banger"
 
