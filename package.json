@@ -1,0 +1,20 @@
+{
+  "name": "pacman-moisson",
+  "version": "1.0.0",
+  "description": "Jeu Pac-Man agricole - Moisson avec tracteur",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "echo Demarrage du serveur sur http://localhost:8080 && http-server . -p 8080",
+    "serve": "http-server . -p 8080"
+  },
+  "keywords": ["game", "pacman", "agriculture", "tractor"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "http-server": "^14.1.1"
+  }
+}
+

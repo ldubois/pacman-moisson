@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Neon Harvest - Cyber Tractor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Préchargement d'une font gaming -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-ui">
+        <header class="hud">
+            <div class="hud-item score-box">
+                <span class="label">SCORE</span>
+                <span id="score" class="value">0</span>
+            </div>
+            <div class="hud-item lives-box">
+                <span class="label">VIES</span>
+                <div id="lives" class="hearts">❤️❤️❤️</div>
+            </div>
+            <div class="hud-item wheat-box">
+                <span class="label">CIBLE</span>
+                <span id="wheat" class="value">0</span>
+            </div>
+        </header>
+
+        <div class="canvas-wrapper">
+            <canvas id="gameCanvas"></canvas>
+            <div id="touch-overlay" class="touch-controls">
+                <div class="d-pad">
+                    <div class="d-btn up" data-key="ArrowUp"></div>
+                    <div class="d-btn left" data-key="ArrowLeft"></div>
+                    <div class="d-btn right" data-key="ArrowRight"></div>
+                    <div class="d-btn down" data-key="ArrowDown"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="start-screen" class="modal visible">
+            <div class="modal-content">
+                <h1>NEON<br>HARVEST</h1>
+                <p class="mission">MISSION: RÉCOLTER SOUS HAUTE TENSION</p>
+                <button id="startBtn" class="neon-btn">DÉMARRER LE MOTEUR</button>
+            </div>
+        </div>
+
+        <div id="game-over-screen" class="modal hidden">
+            <div class="modal-content">
+                <h2 id="end-title">MOTEUR CASSÉ</h2>
+                <p id="end-score">SCORE FINAL: 0</p>
+                <p id="high-score" class="high-score-text">MEILLEUR SCORE: 0</p>
+                <button id="restartBtn" class="neon-btn">RÉPARER & REPARTIR</button>
+            </div>
+        </div>
+    </div>
+    <script src="dist/game.js"></script>
+</body>
+</html>
